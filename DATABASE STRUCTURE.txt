@@ -1,0 +1,6 @@
+#create database job;
+#use job;
+#create table company(cname varchar(25) primary key,location varchar(25),req1 varchar(20),req2 varchar(20),req3 varchar(20),jobrole varchar(25),salary int,contactperson varchar(25),phone varchar(20))
+#insert into company (cname,location,req1,req2,req3,jobrole,salary,contactperson,phone)values('NIIT','KARUR','JAVA','PYTHON','PHP','FACULTY',12000,'GOWTHAMAN','9894083890');
+#insert into company (cname,location,req1,req2,req3,jobrole,salary,contactperson,phone)values('WIPRO','CHENNAI','PYTHON','JAVA','JSP','SOFTWARE DEVELOPER',32000,'AJITH','784083890');
+select * from company
